@@ -36,7 +36,8 @@ import com.jcabi.aspects.Loggable;
  * @version $Id$
  */
 public class Foo {
-    @Loggable
+    //@Loggable
+    @Loggable(name = "performanceLogger")
     public double power(int x, int p) {
         return Math.pow(x, p);
     }
